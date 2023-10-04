@@ -24,14 +24,13 @@ main {
 .nav .header-div-li {
     display: flex;
     width: auto;
-    gap: 1rem;
-    margin-right: 1.5rem;
+    gap: 2rem;
+    margin-right: 5rem;
 }
 .nav .header-div-li li {
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
-    border-bottom: 1px solid black;
 }
 .nav .header-div-li a {
     text-decoration: none;
@@ -39,7 +38,7 @@ main {
 }
 .nav .header-div-img {
     max-width: 9rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 .nav .header-div-img img {
     width: 100%;
@@ -71,5 +70,8 @@ main .hero {
     }
     .nav .header-div-li li {
         font-size: 1.3rem;
+    }
+    .nav .header-div-li {
+        margin-right: 0;
     }
 }
